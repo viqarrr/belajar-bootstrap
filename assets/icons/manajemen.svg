@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" fill="none">
+  <!-- Rounded Background -->
+  <rect width="48" height="48" rx="12" fill="#F5F3FF"/>
+  <!-- Professional Briefcase / Portfolio -->
+  <rect x="10" y="18" width="28" height="20" rx="4" fill="#FFFFFF" stroke="#7C3AED" stroke-width="2.5"/>
+  <!-- Handle -->
+  <path d="M19 18V13C19 11.8954 19.8954 11 21 11H27C28.1046 11 29 11.8954 29 13V18" stroke="#7C3AED" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Horizontal Leather Strap Accent -->
+  <line x1="10" y1="26" x2="38" y2="26" stroke="#DDD6FE" stroke-width="2"/>
+  <!-- Clasp / Lock -->
+  <rect x="22" y="24" width="4" height="4" rx="1" fill="#F59E0B" stroke="#D97706" stroke-width="1"/>
+  <!-- Management Growth / Strategy Line inside/above -->
+  <circle cx="24" cy="33" r="2" fill="#7C3AED"/>
+  <path d="M18 34C18 31 30 31 30 34" stroke="#7C3AED" stroke-width="1.5" stroke-linecap="round"/>
+  <circle cx="34" cy="12" r="3.5" fill="#8B5CF6"/>
+  <circle cx="39" cy="18" r="2.5" fill="#C4B5FD"/>
+</svg>

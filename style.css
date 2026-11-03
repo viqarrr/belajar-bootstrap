@@ -1,0 +1,277 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  padding: 20px 40px;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav-list {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.nav-link:hover {
+  color: #2563eb;
+}
+
+/* Hero */
+.hero-section {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 50px;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 1;
+}
+
+.hero-title {
+  font-size: 38px;
+}
+
+.hero-desc {
+  font-size: 18px;
+  color: #666;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.hero-image {
+  flex: 1;
+  text-align: center;
+}
+
+.hero-illustration {
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Tombol */
+.btn {
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  display: inline-block;
+  text-align: center;
+}
+
+.btn-primary {
+  background-color: #2563eb;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #1d4ed8;
+}
+
+.btn-secondary {
+  border: 2px solid #2563eb;
+  color: #2563eb;
+}
+
+.btn-secondary:hover {
+  background-color: #2563eb;
+  color: white;
+}
+
+/* Statistik */
+.stats-section {
+  background-color: #f1f5f9;
+  padding: 30px;
+  border-radius: 12px;
+  margin-bottom: 50px;
+}
+
+.stats-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.stat-number {
+  font-size: 32px;
+  color: #2563eb;
+}
+
+.stat-label {
+  color: #666;
+  font-size: 14px;
+}
+
+/* Kejuruan */
+.courses-section {
+  margin-bottom: 60px;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 36px;
+}
+
+.section-title {
+  font-size: 34px;
+  margin-bottom: 8px;
+}
+
+.section-subtitle {
+  font-size: 17px;
+  color: #555;
+}
+
+.category-wrapper {
+  display: flex;
+  gap: 50px;
+}
+
+.category-column {
+  flex: 1;
+}
+
+.category-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #2563eb;
+  padding-bottom: 12px;
+  border-bottom: 3px solid #2563eb;
+  margin-bottom: 16px;
+}
+
+.course-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.course-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 18px 14px;
+  border-bottom: 1px solid #e5e7eb;
+  border-radius: 8px;
+  transition: background-color 0.2s ease;
+}
+
+.course-item:hover {
+  background-color: #f8fafc;
+}
+
+.course-info {
+  flex: 1;
+}
+
+.course-name {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1e293b;
+  margin-bottom: 6px;
+}
+
+.course-desc {
+  font-size: 15px;
+  color: #475569;
+  line-height: 1.5;
+}
+
+.course-link {
+  font-size: 15px;
+  font-weight: 600;
+  color: #2563eb;
+  background-color: #eff6ff;
+  padding: 8px 14px;
+  border-radius: 6px;
+  white-space: nowrap;
+}
+
+.course-link:hover {
+  background-color: #2563eb;
+  color: white;
+}
+
+/* Footer */
+.footer {
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  color: #666;
+  font-size: 14px;
+}
+
+.footer-links {
+  display: flex;
+  gap: 15px;
+}
+
+.footer-links a:hover {
+  color: #2563eb;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 20px;
+  }
+
+  .hero-section {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .navbar, .footer-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .category-wrapper {
+    flex-direction: column;
+    gap: 30px;
+  }
+}

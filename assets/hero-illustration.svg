@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 360" width="100%" height="auto" fill="none">
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="bgBlob" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EFF6FF"/>
+      <stop offset="100%" stop-color="#DBEAFE"/>
+    </linearGradient>
+    <linearGradient id="laptopScreen" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F8FAFC"/>
+    </linearGradient>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#1E293B" flood-opacity="0.1"/>
+    </filter>
+  </defs>
+
+  <!-- Background Decorative Shape -->
+  <path d="M410 200C410 290 320 330 230 330C120 330 60 270 60 180C60 90 140 40 230 40C330 40 410 100 410 200Z" fill="url(#bgBlob)"/>
+
+  <!-- Small floating decorative dots -->
+  <circle cx="90" cy="90" r="6" fill="#3B82F6" opacity="0.3"/>
+  <circle cx="390" cy="80" r="8" fill="#F59E0B" opacity="0.4"/>
+  <circle cx="370" cy="280" r="5" fill="#10B981" opacity="0.3"/>
+
+  <!-- Table Base -->
+  <rect x="70" y="270" width="320" height="12" rx="6" fill="#94A3B8"/>
+  <rect x="85" y="282" width="290" height="4" fill="#64748B"/>
+
+  <!-- Desk Plant -->
+  <path d="M105 270L110 245H125L130 270H105Z" fill="#F97316"/>
+  <path d="M117 245C117 225 105 220 100 220C105 230 115 235 117 245Z" fill="#10B981"/>
+  <path d="M118 245C122 220 135 218 140 220C135 228 124 235 118 245Z" fill="#059669"/>
+
+  <!-- Coffee Cup -->
+  <rect x="330" y="252" width="18" height="18" rx="3" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+  <path d="M348 256C352 256 354 259 354 262C354 265 352 267 348 267" stroke="#CBD5E1" stroke-width="2"/>
+  <!-- Steam -->
+  <path d="M336 247C336 244 338 242 336 239" stroke="#94A3B8" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- Central Laptop Device -->
+  <rect x="155" y="145" width="150" height="100" rx="6" fill="#0F172A" filter="url(#softShadow)"/>
+  <rect x="160" y="150" width="140" height="90" rx="3" fill="url(#laptopScreen)"/>
+  
+  <!-- Screen UI Content (Code & Chart) -->
+  <rect x="168" y="158" width="60" height="35" rx="3" fill="#1E293B"/>
+  <line x1="173" y1="165" x2="195" y2="165" stroke="#38BDF8" stroke-width="2" stroke-linecap="round"/>
+  <line x1="173" y1="172" x2="215" y2="172" stroke="#A78BFA" stroke-width="2" stroke-linecap="round"/>
+  <line x1="173" y1="179" x2="188" y2="179" stroke="#34D399" stroke-width="2" stroke-linecap="round"/>
+  <line x1="173" y1="186" x2="205" y2="186" stroke="#F472B6" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Screen Mini Dashboard -->
+  <rect x="234" y="158" width="58" height="35" rx="3" fill="#1E293B"/>
+  <circle cx="263" cy="175" r="10" stroke="#F59E0B" stroke-width="3" fill="none" stroke-dasharray="45 15"/>
+
+  <!-- Bottom Code Lines on Screen -->
+  <rect x="168" y="200" width="124" height="32" rx="3" fill="#1E293B"/>
+  <line x1="174" y1="208" x2="240" y2="208" stroke="#60A5FA" stroke-width="2" stroke-linecap="round"/>
+  <line x1="174" y1="215" x2="220" y2="215" stroke="#94A3B8" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="174" y1="222" x2="260" y2="222" stroke="#94A3B8" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- Laptop Base & Keyboard Pad -->
+  <path d="M135 245H325L315 270H145L135 245Z" fill="#CBD5E1"/>
+  <rect x="205" y="258" width="50" height="8" rx="2" fill="#94A3B8"/>
+
+  <!-- Floating Badge 1: BNSP Certificate (Top Left) -->
+  <g transform="translate(60, 110)" filter="url(#softShadow)">
+    <rect width="105" height="48" rx="10" fill="url(#cardGrad)" stroke="#E2E8F0" stroke-width="1.5"/>
+    <circle cx="24" cy="24" r="12" fill="#FEF3C7"/>
+    <path d="M24 16L26 21L31 21L27 24L29 29L24 26L19 29L21 24L17 21L22 21L24 16Z" fill="#F59E0B"/>
+    <text x="44" y="22" font-family="sans-serif" font-size="9" font-weight="bold" fill="#1E293B">Sertifikasi</text>
+    <text x="44" y="34" font-family="sans-serif" font-size="8" fill="#64748B">Standar BNSP</text>
+  </g>
+
+  <!-- Floating Badge 2: Teknik & Vokasi (Top Right) -->
+  <g transform="translate(295, 75)" filter="url(#softShadow)">
+    <rect width="115" height="52" rx="10" fill="url(#cardGrad)" stroke="#E2E8F0" stroke-width="1.5"/>
+    <circle cx="26" cy="26" r="13" fill="#DBEAFE"/>
+    <!-- Gear icon inside badge -->
+    <path d="M26 19V21 M26 31V33 M19 26H21 M31 26H33 M21 21L22.5 22.5 M29.5 29.5L31 31 M21 31L22.5 29.5 M29.5 22.5L31 21" stroke="#2563EB" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="26" cy="26" r="4" fill="#2563EB"/>
+    <text x="48" y="24" font-family="sans-serif" font-size="9" font-weight="bold" fill="#1E293B">70% Praktik</text>
+    <text x="48" y="36" font-family="sans-serif" font-size="8" fill="#2563EB">Siap Kerja</text>
+  </g>
+
+  <!-- Floating Badge 3: Sukses Karir (Right Center) -->
+  <g transform="translate(315, 180)" filter="url(#softShadow)">
+    <rect width="100" height="46" rx="10" fill="url(#cardGrad)" stroke="#E2E8F0" stroke-width="1.5"/>
+    <circle cx="22" cy="23" r="11" fill="#DCFCE7"/>
+    <path d="M17 23L20 26L27 19" stroke="#10B981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="40" y="21" font-family="sans-serif" font-size="9" font-weight="bold" fill="#1E293B">Penyaluran</text>
+    <text x="40" y="32" font-family="sans-serif" font-size="8" fill="#10B981">Mitra Industri</text>
+  </g>
+</svg>
